@@ -1,0 +1,5 @@
+interface Compte {
+    double solde();
+    boolean credit(in double amount);
+    boolean debit(in double amount);
+};
